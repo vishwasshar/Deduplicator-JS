@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(to left, rgb(0, 255, 213), rgb(0, 255, 34));
+}
+.main {
+  display: flex;
+  height: 80vh;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 70vh;
+  height: 45%;
+  background-color: rgba(0, 255, 255, 0.15);
+  resize: none;
+}
+
+#submit {
+  background-color: rgba(0, 255, 255, 0.3);
+  border: 0.5px solid black;
+  height: 30px;
+  border-radius: 20px;
+}
+
+#submit:hover {
+  height: 35px;
+  width: 75px;
+  font-size: 15px;
+}
+#submit:active {
+  height: 30px;
+  width: 70px;
+  font-size: 13px;
+}
+
+textarea:focus {
+  box-shadow: whitesmoke;
+}
